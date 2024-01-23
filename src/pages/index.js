@@ -1,11 +1,13 @@
-import { LightModeIcon } from "@/components";
+import { GitHubIcon, LightModeIcon } from "@/components";
+import AboutMe from "@/components/AboutMe";
+import Skills from "@/components/Skills";
 
 export default function Home() {
   return (
-    <div className=" bg-white    w-full ">
-      <div className="flex text-black  justify-between items-center px-20 py-4">
+    <div className=" bg-white flex flex-col  items-center w-[1440px] ">
+      <div className="flex text-black  justify-between items-center px-20 py-4 w-[1440px] ">
         <h3 className="text-center text-3xl ">SS</h3>
-        <div className="flex  gap-10 w-90">
+        <div className="flex  gap-10 w-90 ">
           <button>About</button>
           <button>Work</button>
           <button>Testimonials</button>
@@ -16,8 +18,8 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="flex justify-center">
-        <div className="flex max-w-3xl flex-col justify-center gap-12">
+      <div className="flex justify-center gap-12  w-[1440px] px-20 py-24">
+        <div className="flex  flex-col justify-center gap-12 w-full h-full min-w-[384px]">
           <div>
             <h2>Hi, I’m Sagar 👋</h2>
             <p>
@@ -32,10 +34,16 @@ export default function Home() {
             <h5>Ahmedabad, India</h5>
             <h5>Available for new projects</h5>
           </div>
-          <div></div>
+          <div>
+            <GitHubIcon />
+          </div>
         </div>
-        <img src="/images/FirstPic.jpeg" className="h-80 w-72" />
+        <div className="flex min-w-[384px] flex-col justify-center items-end self-stretch">
+          <img src="/images/FirstPic.jpeg" className="w-[280px] h-[320px]" />
+        </div>
       </div>
+      <AboutMe />
+      <Skills />
     </div>
   );
 }
