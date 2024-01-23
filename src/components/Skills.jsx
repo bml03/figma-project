@@ -2,7 +2,6 @@ import {
   CypressIcon,
   ExpressJsIcon,
   FigmaIcon,
-  GitHubIcon,
   GitIcon,
   JavascriptIcon,
   MongoDBIcon,
@@ -15,6 +14,7 @@ import {
   SocketIoIcon,
   StorybookIcon,
   TailwindIcon,
+  TwitterIcon,
   TypescriptIcon,
 } from "./icons/icon";
 
@@ -27,14 +27,16 @@ export default function Skills() {
           <p>The skills, tools and technologies I am really good at:</p>
         </div>
         <div>
-          <div>
-            <CypressIcon />
-            <ExpressJsIcon />
-            <FigmaIcon />
-            <GitHubIcon />
-            <GitIcon />
-            <JavascriptIcon />
-          </div>
+          <TypescriptIcon />
+          <TwitterIcon />
+          {/* <TailwindIcon /> */}
+          <StorybookIcon />
+          <SocketIoIcon />
+          <ScssIcon />
+          {/* <ReactIcon /> */}
+          {/* <NodeJsIcon /> */}
+          {/* <NextJsIcon /> */}
+          {/* <NestIcon /> */}
         </div>
       </div>
     </div>

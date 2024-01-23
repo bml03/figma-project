@@ -1,16 +1,15 @@
 export const NextJsIcon = () => {
   return (
     <svg
-      xmlns="http://www.w3.org/2000/svg"
       width="65"
       height="64"
       viewBox="0 0 65 64"
       fill="none"
+      xmlns="http://www.w3.org/2000/svg"
     >
       <g clip-path="url(#clip0_316_285)">
         <mask
           id="mask0_316_285"
-          style="mask-type:alpha"
           maskUnits="userSpaceOnUse"
           x="0"
           y="0"
