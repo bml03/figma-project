@@ -2,7 +2,7 @@ import { GitHubIcon, LightModeIcon } from "@/components";
 
 export default function AboutMe() {
   return (
-    <div className="flex px-20 py-24 justify-between items-start self-stretch w-[1440px]">
+    <div className="flex px-20 py-24 justify-between items-start self-stretch w-[1440px] bg-gray-50">
       <div className="flex px-8 flex-col items-center gap-12 w-[1440px]">
         <h2 className="flex px-5 py-1 justify-center items-center text-sm ">
           About me

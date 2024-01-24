@@ -18,3 +18,4 @@ export * from "./StorybookIcon";
 export * from "./TailwindIcon";
 export * from "./TwitterIcon";
 export * from "./TypescriptIcon";
+export * from "./DownlaodIcon";
