@@ -45,9 +45,23 @@ export default function Work() {
         </div>
         <div>
           {workData.map((e) => (
-            <div className=" ">
-              <img src="/images/Picture.jpg" className="w-[280px] h-[320px]" />
-              <div></div>
+            <div className=" flex">
+              <img
+                src="/images/Picture.jpg"
+                className="flex px-12 py-12 justify-center items-center w-full"
+              />
+              <div className="flex px-12 py-12 flex-col items-center gap-6">
+                <h3>{e.header}</h3>
+                <p>{e.content}</p>
+                <div>
+                  {tag.map((e) => (
+                    <div className="flex items-start justify-start">
+                      <div className=" ">{e.tag}</div>
+                    </div>
+                  ))}
+                </div>
+                <DownloadIcon />
+              </div>
             </div>
           ))}
         </div>
